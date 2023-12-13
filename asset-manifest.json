@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/proyecto-restaurante/static/css/main.2e3b0400.css",
+    "main.js": "/proyecto-restaurante/static/js/main.4644e67c.js",
+    "static/media/burgergif.gif": "/proyecto-restaurante/static/media/burgergif.e01e6e01f2179e406296.gif",
+    "static/media/icedcoffee.png": "/proyecto-restaurante/static/media/icedcoffee.c194da2ed42b714dfb3b.png",
+    "static/media/hamburger.png": "/proyecto-restaurante/static/media/hamburger.656b761655e8b5ef5de6.png",
+    "static/media/dining.jpg": "/proyecto-restaurante/static/media/dining.c977bcc3f27f3c8f60db.jpg",
+    "static/media/fries.png": "/proyecto-restaurante/static/media/fries.758c6b7f12ab4a90a954.png",
+    "static/media/background.jpg": "/proyecto-restaurante/static/media/background.5cd298290eb87694209a.jpg",
+    "static/media/contact-modal-img.jpg": "/proyecto-restaurante/static/media/contact-modal-img.3e543344122e7b7d1b6e.jpg",
+    "static/media/form-modal-img.jpg": "/proyecto-restaurante/static/media/form-modal-img.ac61c6d9818b096d003f.jpg",
+    "index.html": "/proyecto-restaurante/index.html",
+    "main.2e3b0400.css.map": "/proyecto-restaurante/static/css/main.2e3b0400.css.map",
+    "main.4644e67c.js.map": "/proyecto-restaurante/static/js/main.4644e67c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e3b0400.css",
+    "static/js/main.4644e67c.js"
+  ]
+}
