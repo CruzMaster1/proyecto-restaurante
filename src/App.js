@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Home from './components/home/Home';
 import Menu from './components/menu/Menu';
@@ -10,22 +10,21 @@ import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer'
 
 export default function App() {
-  return (
-    <div className="App">
-    <BrowserRouter>
-    <Navbar />
+  return (    
+    <Router>
+      <div>
+        <Navbar></Navbar>
+      </div>
       <Routes>
-        <Route path="/" element={}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="menu" element={<Menu />} />
           <Route path="book" element={<Book />} />
           <Route path="contact" element={<Contact />} />
-        </Route>
       </Routes>
       <Footer />
     
-    </BrowserRouter>
-    </div>
+    </Router>
+
   )
 }
