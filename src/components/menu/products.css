@@ -1,0 +1,14 @@
+.products {
+    background-color: #ffffffdf;
+    border-radius: 2rem;
+    text-align: center;
+    transition-duration: 0.4s;
+}
+
+.products:hover {
+    box-shadow: 1px 0px 10px #ffffff;
+}
+
+.products-img {
+    width: 10rem;
+}

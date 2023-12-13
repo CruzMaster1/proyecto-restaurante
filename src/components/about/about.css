@@ -1,0 +1,24 @@
+.about-img {
+    width: 30rem;
+    border-radius: 1rem;
+}
+
+.infoAbout {
+    font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .about-img {
+        margin: 0.5rem 0rem;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .about-img {
+        margin: 0.5rem 0rem;
+        width: 100%;
+    }
+}

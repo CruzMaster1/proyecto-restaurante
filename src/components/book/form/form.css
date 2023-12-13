@@ -1,0 +1,94 @@
+.book-form {
+  width: 40rem;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  background-color: #ffffffdf;
+  border-radius: 1rem;
+}
+
+.book-form input,
+textarea {
+  width: 90%;
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  border: 0.2rem solid #cccccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input:focus {
+  border: 0.2rem solid #555555;
+}
+
+textarea:focus {
+  border: 0.2rem solid #555555;
+}
+
+.book-form select {
+  width: 92%;
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  border: 0.2rem solid #cccccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+select:focus {
+  border: 0.2rem solid #555555;
+}
+
+.modal-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 4;
+  width: 90%;
+  height: 100%;
+}
+
+.modal-wrap .modal {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: #ffffff;
+  box-shadow: #0000008f 0px 22px 70px 4px;
+}
+
+.modal-wrap .modal img {
+  width: 11rem;
+  height: auto;
+}
+
+.display-none {
+  display: none;
+}
+
+@media only screen and (max-width: 1280px) {
+
+  .book-form {
+      width: 90%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .book-form {
+    width: 90%;
+  }
+
+  .modal-wrap {
+    width: 95%;
+  }
+
+  .modal-wrap .modal {
+    margin: 0rem;
+    padding: 1rem;
+  }
+  
+}
