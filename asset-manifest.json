@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/proyecto-restaurante/static/css/main.2e3b0400.css",
-    "main.js": "/proyecto-restaurante/static/js/main.b025a269.js",
+    "main.js": "/proyecto-restaurante/static/js/main.905a585c.js",
     "static/media/burgergif.gif": "/proyecto-restaurante/static/media/burgergif.e01e6e01f2179e406296.gif",
     "static/media/icedcoffee.png": "/proyecto-restaurante/static/media/icedcoffee.c194da2ed42b714dfb3b.png",
     "static/media/hamburger.png": "/proyecto-restaurante/static/media/hamburger.656b761655e8b5ef5de6.png",
@@ -12,10 +12,10 @@
     "static/media/form-modal-img.jpg": "/proyecto-restaurante/static/media/form-modal-img.ac61c6d9818b096d003f.jpg",
     "index.html": "/proyecto-restaurante/index.html",
     "main.2e3b0400.css.map": "/proyecto-restaurante/static/css/main.2e3b0400.css.map",
-    "main.b025a269.js.map": "/proyecto-restaurante/static/js/main.b025a269.js.map"
+    "main.905a585c.js.map": "/proyecto-restaurante/static/js/main.905a585c.js.map"
   },
   "entrypoints": [
     "static/css/main.2e3b0400.css",
-    "static/js/main.b025a269.js"
+    "static/js/main.905a585c.js"
   ]
 }
