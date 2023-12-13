@@ -13,8 +13,9 @@ export default function App() {
   return (
     <div className="App">
     <BrowserRouter>
+    <Navbar />
       <Routes>
-        <Route path="/" element={<Navbar />}>
+        <Route path="/" element={}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="menu" element={<Menu />} />
@@ -23,6 +24,7 @@ export default function App() {
         </Route>
       </Routes>
       <Footer />
+    
     </BrowserRouter>
     </div>
   )
